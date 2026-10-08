@@ -1,0 +1,17 @@
+# secrets and local data: never commit
+.env
+.env.*
+!.env.example
+data.db
+*.db
+.vercel/
+
+# personal context from the Devpost skill pack (keep private)
+devpost/learner-profile.md
+
+# build/runtime
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+tests/node_modules/
